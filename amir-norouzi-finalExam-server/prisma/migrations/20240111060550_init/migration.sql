@@ -1,0 +1,11 @@
+-- CreateTable
+CREATE TABLE "Users" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "fullname" TEXT NOT NULL,
+    "age" INTEGER NOT NULL,
+    "gender" TEXT NOT NULL,
+    "height" INTEGER NOT NULL,
+    "weight" INTEGER NOT NULL,
+    "time" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "ip" TEXT NOT NULL
+);
